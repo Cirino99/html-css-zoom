@@ -9,6 +9,9 @@ body {
 a {
     text-decoration: none;
 }
+.green {
+    color: #4bc800;
+}
 
 /* header */
 header {
@@ -71,6 +74,7 @@ footer {
     color: white;
 }
 footer #control {
+    height: 100%;
     font-size: 14px;
     display: flex;
     align-items: center;
@@ -79,7 +83,17 @@ footer #control .controls {
     text-align: center;
     margin: 0 15px;
 }
-footer #control .controls i{
+.controls i{
     font-size: 30px;
     padding-bottom: 5px;
+}
+footer #option {
+    height: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+footer #option .controls {
+    text-align: center;
+    margin: 0 12px;
 }
