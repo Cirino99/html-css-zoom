@@ -30,7 +30,7 @@ header a {
 /* main */
 main {
     width: 100%;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 130px);
     padding: 15px 0;
     overflow: auto;
     display: flex;
@@ -62,7 +62,24 @@ main .speaker .name {
 
 /* footer */
 footer {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+footer #control {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+footer #control .controls {
+    text-align: center;
+    margin: 0 15px;
+}
+footer #control .controls i{
+    font-size: 30px;
+    padding-bottom: 5px;
 }
